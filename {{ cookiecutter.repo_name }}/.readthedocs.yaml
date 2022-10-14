@@ -8,11 +8,11 @@ build:
   jobs:
     pre_build:
       # Generate on-the-fly Sphinx configuration from Jupyter Book's _config.yml
-      - "jupyter-book config sphinx ./"
+      - "jupyter-book config sphinx notebooks/"
 
 python:
    install:
-   - requirements: requirements_jb.txt
+   - requirements: notebooks/requirements_jb.txt
 #   - method: pip
 #     path: .
 

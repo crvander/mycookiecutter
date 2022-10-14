@@ -10,7 +10,7 @@ project: {{cookiecutter.project_name}}
 author: {{cookiecutter.author_name}}
 sphinx:
   config:
-    latex_logo: 'notebooks/figures/logo_jpg2300.jpg'
+    latex_logo: 'figures/logo_jpg2300.jpg'
 
 
 # Force re-execution of notebooks on each build.
