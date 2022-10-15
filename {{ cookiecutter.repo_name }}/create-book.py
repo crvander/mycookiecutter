@@ -9,14 +9,14 @@ else:
         # uncomment if you want empty file
         fp.write(
             '# Table of contents\n'
-            '# Learn more at https://jupyterbook.org/customize/toc.html\n'
+            '# Learn more at https://jupyterbook.org/customize/toc.html\n\n'
             
             'format: jb-book\n'
             'root: intro\n'
             'chapters:\n'
-            '\t- file: notebooks/markdown\n'
-            '\t- file: notebooks/notebooks\n'
-            '\t- file: notebooks/markdown-notebooks'        
+            # '\t- file: notebooks/markdown\n'
+            # '\t- file: notebooks/notebooks\n'
+            # '\t- file: notebooks/markdown-notebooks'        
 
         )
 
