@@ -7,7 +7,20 @@ else:
     # create a file
     with open(file_path, 'w') as fp:
         # uncomment if you want empty file
-        fp.write('# Table of contents\n')
-        fp.write('# Learn more at https://jupyterbook.org/customize/toc.html')
+        fp.write(
+            '# Table of contents\n'
+            '# Learn more at https://jupyterbook.org/customize/toc.html\n'
+            
+            'format: jb-book\n'
+            'root: intro\n'
+            'chapters:\n'
+            '\t- file: notebooks/markdown\n'
+            '\t- file: notebooks/notebooks\n'
+            '\t- file: notebooks/markdown-notebooks'        
+
+        )
+
+
+
         
 
